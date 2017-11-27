@@ -1,0 +1,20 @@
+.search {
+    width: 300px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #2ab27b;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    font-weight: bold;
+    text-align: inherit;
+    margin: 5px;
+    display: inline;
+}
+
+.search:focus {
+    width: 60%;
+}
